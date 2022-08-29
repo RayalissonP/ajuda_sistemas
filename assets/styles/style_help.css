@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+   padding: 0px;
+   margin: 0px;
+   font-family: 'Roboto', sans-serif;
+}
+
+article {
+   font-size: 1.2em;
+}
+
+article p {
+   padding: 22px 2px 2px 2px;
+   margin-bottom: 8px;
+   text-align: justify;
+}
+
+div .container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+img {
+   width: 100%;
+   border-radius: 6px;
+   border: 1px solid black;
+}
