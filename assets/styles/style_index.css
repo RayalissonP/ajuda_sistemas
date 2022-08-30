@@ -38,7 +38,7 @@ body{
    line-height: 1.5;
 }
 
- #showcase .button{
+ #showcase .button {
    font-size: 28px;
    text-decoration:none;
    color: #20FC8F;
@@ -47,7 +47,7 @@ body{
    padding: 10px 20px;
    border-radius: 10px;
    margin-top: 50px;
-   font-weight: 600;
+   font-weight: bold;
 }
 
  #showcase .button:hover {
@@ -57,4 +57,5 @@ body{
    transform: translate(-1px, -2px);
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
    transition: transform .5s, border 0.3s;
+   font-weight: bold;
 }
