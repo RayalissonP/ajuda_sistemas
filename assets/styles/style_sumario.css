@@ -4,11 +4,17 @@ ol {
    color: blue;
 }
 
+ol > h2 {
+   font-size: 1.3em;
+   text-align: center;
+}
+
 li {
    padding: 10px;
    margin-left: 10px;
    list-style-position: inside;
    font-size: 1.2em;
+   text-align: center;
 }
 
 li a {
@@ -24,7 +30,6 @@ li a:hover {
 }
 
 footer {
-   /*background-color: rgba(255, 255, 255, 0.288);*/
    background-image: linear-gradient(to right, #222831, rgba(128, 128, 128, 0.842), #222831);
    color: white;
    text-align: center;
