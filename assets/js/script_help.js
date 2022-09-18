@@ -7,7 +7,7 @@ btn.addEventListener("click", function(){
 document.addEventListener("scroll", ocultarBotaoTopo)
 
 function ocultarBotaoTopo() {
-   if(window.scrollY > 200){
+   if(window.scrollY > 100){
       btn.style.display = "flex"
    } else {
       btn.style.display = "none"
