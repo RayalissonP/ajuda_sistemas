@@ -66,18 +66,18 @@ video {
 
 #btn-top {
    position: fixed;
-   bottom: 30px;
-   right: 30px;
+   bottom: 38px;
+   right: 20px;
    width: 40px;
    height: 40px;
-   background-color: #045ca0;
+   background-color: rgba(0, 0, 0, 0.945);
    border-radius: 50%;
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: center;
    cursor: pointer;
-   transition: 0.5s all;
+   animation: seta_topo 1s linear infinite;
 }
 
 .arrow {
@@ -90,4 +90,10 @@ video {
 .up {
    transform: rotate(-135deg);
    -webkit-transform: rotate(-135deg);
+}
+
+@keyframes seta_topo {
+   from {transform: translateY(10px);}
+   50% {transform: translateY(0);}
+   to {transform: translateY(10px);}
 }
