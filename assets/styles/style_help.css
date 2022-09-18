@@ -30,6 +30,24 @@ img {
    margin: 10px 0px 20px 0px;
 }
 
+figure { 
+   width: 100%; 
+   min-width: 320px; 
+   margin: 0 auto;
+}
+
+figcaption { 
+   font: 120% sans-serif; 
+   text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
 .container { 
    margin-top: 50px;
    margin-bottom: 10px;
