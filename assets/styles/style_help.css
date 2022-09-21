@@ -70,7 +70,7 @@ video {
    right: 20px;
    width: 40px;
    height: 40px;
-   background-color: rgba(224, 90, 0, 0.973);
+   background-color: rgba(218, 87, 0, 0.973);
    border: 1px solid rgba(0, 0, 0, 0.336);
    border-radius: 50%;
    display: flex;
@@ -79,6 +79,10 @@ video {
    justify-content: center;
    cursor: pointer;
    animation: seta_topo 1s linear infinite;
+}
+
+#btn-top:hover {
+   background-color: rgb(255, 102, 0);
 }
 
 .arrow {
