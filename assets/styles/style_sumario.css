@@ -29,6 +29,10 @@ li a:hover {
    color: white;
 }
 
+.counter {
+   padding-top: 14px;
+}
+
 footer {
    background-image: linear-gradient(to right, #222831, rgba(128, 128, 128, 0.842), #222831);
    color: white;
